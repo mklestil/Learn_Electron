@@ -1,0 +1,13 @@
+{
+  "name": "Hello-World",
+  "version": "0.1.0",
+  "author": "Martin Klestil",
+  "description": "Hello World",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^11.1.1"
+  }
+}
