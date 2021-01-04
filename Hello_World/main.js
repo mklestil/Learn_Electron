@@ -9,7 +9,9 @@ let mainWindow
 function createWindow () {
   mainWindow = new BrowserWindow({
     width: 1000, height: 800,
-    webPreferences: { nodeIntegration: true }
+    webPreferences: { nodeIntegration: true },
+    //alternative ready-to-show
+    backgroundColor: '#2B2E3B'
   })
 
   // Load index.html into the new BrowserWindow
